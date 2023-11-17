@@ -37,7 +37,7 @@ let displayData = function () {
 // Code to display the current date in the header of the page.
 let currentDay = function () {
   let dayDisplay = $("#currentDay");
-  let today = dayjs().format('dddd, MMMM D, YYYY h:mm A');
+  let today = dayjs().format('dddd, MMMM D, YYYY');
   dayDisplay.text(today);
 
 }
